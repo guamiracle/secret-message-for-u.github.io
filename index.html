@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buat kamu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<center>
+<figure>
+    <figcaption>
+        <h3>pencet dulu lagunya hehe</h3>
+    </figcaption>
+</figure>
+
+<audio controls autoplay loop>
+    <source src="scott-street-phoebe-bridgers.mp3" type="audio/mp3"/>
+
+    </audio>
+</center>
+
+</body>
+
+<body>
+
+    <h2>bacanya pelan-pelan aja</h2>
+
+    <p alaig="justify">
+        Dari banyak kejadian dalam hidup seharusnya bisa paham bahwa setiap masalah, manusia pasti memilikinya. Setiap orang punya beban mereka masing-masing. Ketika ditanya, "siapa yang paling berbahagia di dunia ini?", mungkin jawabannya kita ngga bisa tahu. Karena takaran bahagia dalam diri itu letaknya pada makna cukup; bersyukur.<br>
+        <br>
+        Sehingga perbandingan bahagia atau engganya seseorang, itu ngga bisa dibandingin. Sebeban atau engganya hidup manusia juga ngga bisa dibandingin. Satu diri manusia, ia memiliki takdirnya sendiri. ya nyatanya manusia engga diciptakan untuk memperebutkan satu takdir dengan manusia lainnya. melainkan punya pilihan masing-masing, yang arahnya berbeda walau mungkin searah. Nyatanya, kita hidup dengan mengejar takdir diri masing-masing.<br>
+        <br>
+        Kita sama, tetapi berbeda.<br>
+        <br>
+        Jadi menurut aku engga ada hak siapapun itu untuk membandingkan satu manusia dengan manusia lainnya. hidup di dunia terlalu lucu kalo nyatanya hidup dijalani hanya untuk memperlihatkan siapa yang paling dari siapa, seolah hidup cuman tentang perbandingan.<br>
+        <br>
+        Percayalah; bahwa seberat apapun, setakut apapun, setidakbaik apapun yang terjadi dalam hidup, akan bisa terlalui, karena hidup bercerita tentang sementara. Jangan berpikir akan berlangsung selamanya. Selain itu, banyak hal- hal yang justru perlu untuk lebih disyukuri. Terima kasih; katakan itu untuk hidup.<br>
+    
+    </p>
+    
+
+    <div class="cursor"></div>
+    <script type="text/javascript" src="script.js"></script>
+    
+    <style>
+        body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 4em;
+    text-align: center;
+    color: #ff80f2;
+}
+
+p {
+    font-size: 1.5em;
+    text-align: justify;
+    padding: 50px;
+    
+}
+
+.cursor {
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+    </style>
+
+    <script>
+        const cursor = document.querySelector(".cursor");
+window.addEventListener("mousemove", function(e){
+    cursor.style.left = (e.x-100)+"px";
+    cursor.style.top = (e.y-100)+"px";
+})
+    </script>
+
+</body>
+
+</html>
